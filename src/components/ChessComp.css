@@ -1,0 +1,25 @@
+.chessDiv {
+  width: 50px;
+  height: 50px;
+  border-top: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.chess {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+
+}
+
+.chess.red {
+  box-shadow: 0px 0px 20px rgb(238, 58, 58) inset;
+}
+
+.chess.black {
+  box-shadow: 0px 0px 20px rgb(10, 10, 10) inset;
+}
